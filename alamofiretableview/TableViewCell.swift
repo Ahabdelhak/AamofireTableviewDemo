@@ -9,6 +9,11 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var trackName: UILabel!
+    @IBOutlet weak var trackImg: UIImageView!
+    
+    @IBOutlet weak var artistName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
