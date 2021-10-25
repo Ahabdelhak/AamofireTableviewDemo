@@ -15,6 +15,15 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
            super.viewDidLoad()
         
+        
+        //UserDefault Test
+            let token = "ABCDEFGD!@#$456MK"
+              SharedPreferenceManager.sharedIntance.saveUserToken(token)
+                
+              if let token = SharedPreferenceManager.sharedIntance.getUserToken(){
+                  debugPrint(token)
+              }
+        
         loadJsonData()
 
         tableviewUi.delegate = self

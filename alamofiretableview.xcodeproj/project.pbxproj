@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63750D442727431D00A503EA /* SharedPreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63750D432727431D00A503EA /* SharedPreferenceManager.swift */; };
 		DC01AA8526FC985B005779DA /* ArtistResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC01AA8426FC985A005779DA /* ArtistResponseModel.swift */; };
 		DC3DF1D026FB627500878B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DF1CF26FB627500878B71 /* AppDelegate.swift */; };
 		DC3DF1D226FB627500878B71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DF1D126FB627500878B71 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63750D432727431D00A503EA /* SharedPreferenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPreferenceManager.swift; sourceTree = "<group>"; };
 		A2EAC821192CBA493160BE59 /* Pods-alamofiretableview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamofiretableview.debug.xcconfig"; path = "Target Support Files/Pods-alamofiretableview/Pods-alamofiretableview.debug.xcconfig"; sourceTree = "<group>"; };
 		D32F29D6A71DB6CA4A416DED /* Pods_alamofiretableview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alamofiretableview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC01AA8426FC985A005779DA /* ArtistResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponseModel.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				DC5AF48326FB678200C287EA /* TableViewCell.swift */,
 				DC5AF48426FB678200C287EA /* TableViewCell.xib */,
 				DC01AA8426FC985A005779DA /* ArtistResponseModel.swift */,
+				63750D432727431D00A503EA /* SharedPreferenceManager.swift */,
 			);
 			path = alamofiretableview;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				DC3DF1D426FB627500878B71 /* ViewController.swift in Sources */,
 				DC01AA8526FC985B005779DA /* ArtistResponseModel.swift in Sources */,
 				DC5AF48526FB678200C287EA /* TableViewCell.swift in Sources */,
+				63750D442727431D00A503EA /* SharedPreferenceManager.swift in Sources */,
 				DC3DF1D026FB627500878B71 /* AppDelegate.swift in Sources */,
 				DC3DF1D226FB627500878B71 /* SceneDelegate.swift in Sources */,
 			);
